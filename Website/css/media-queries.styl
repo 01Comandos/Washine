@@ -1,0 +1,199 @@
+/*
+	MEDIA QUERIES
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+/*@media (max-width: 1600px)*/
+	/**********************
+        LISTADO DE VUELOS
+    **********************/
+	
+			
+	/**********************
+        INDEX
+    **********************/
+    		
+@media (max-width: 1297px)
+	/**********************
+    	INDEX
+    **********************/
+	.header 
+		&-diagonal
+			margin-top -52.3em
+
+	.customers
+		width 90%
+		&-raptor
+			figure
+				width 80%
+	
+	.contact
+		&-container
+			&-item
+				&:nth-child(1)	
+					width 25em
+					height 25em
+				&:nth-child(2)
+					width 40%
+			&.diagonal-b
+				.wrapper
+					span
+						top -12em !important
+						bottom -12em !important
+				
+
+// Large devices (desktops, 62em and up)
+@media (max-width: 991px)
+	input
+		height 2.1em !important
+	/**********************
+    	INDEX
+    **********************/
+	.customers
+		&-opinion
+			.item
+				width 45%
+				&:nth-child(3)
+					display none
+	
+	.contact
+		&-container
+			&-item
+				&:nth-child(2)
+					width 50%
+
+// Medium devices (tablets, 48em and up)
+@media (max-width: 768px)
+		
+	body
+		font-size 14px
+	
+	/**********************
+        INDEX
+    **********************/
+	.header
+		&-explanation
+			&-stores
+				margin-top 2.3em
+		&-diagonal
+			margin-top -53.5em
+	.customers
+		  
+		&-raptor
+			.note
+				display none
+	.contact
+		&-container
+			&.diagonal-b
+				.wrapper
+					padding 24em 26em	
+	.footer
+		&-container
+			width 90%
+		p
+			width 80%
+		h5
+			padding-top 0.5em
+				
+	
+	/**********************
+        EVENTS
+    **********************/						
+
+@media (max-width: 630px)
+	/**********************
+        GENERAL
+    **********************/			
+	body
+		font-size 13px
+	
+	/**********************
+    	INDEX
+    **********************/
+	.header
+		background-color gris-claro
+		background-image url("../img/background-header.jpg")
+		background-attachment fixed
+		background-position center
+		background-repeat no-repeat
+		background-size cover
+		height auto
+		padding-bottom 10em
+		&-head
+			.logo
+				width 15em
+		&-explanation
+			h1
+				font-size 2.7em    	  		
+			h2
+				font-size 1.6em
+				padding 0 0.5em
+			&-works
+				display block
+				.item
+					width 100%
+					text-align center
+					margin-bottom 2em
+					span
+						font-size 6em
+					p
+						font-size 1.1em
+			&-stores
+				.item
+					width 30%
+		&-diagonal
+			display none
+	
+	.customers
+		margin-top -5em
+		width 90%
+		&-raptor
+			figure
+				width 100%
+		&-title
+			margin-bottom 1em
+		&-opinion
+			display block
+			top 0
+			text-align center
+			.item
+				width 100%
+				margin-bottom 2em
+				
+	.contact
+		&-container
+			&-item
+				margin-bottom 3em
+				&:nth-child(1)	
+					display none
+				&:nth-child(2)
+					width 85%
+			&.diagonal-b
+				transform skew(0deg, 0deg)
+				.wrapper
+					padding 24em 26em
+					span
+						top 0 !important
+						bottom 0 !important
+						transform skew(0deg, 0deg) !important	
+
+// Small devices (landscape phones, 415px and up)
+@media (max-width: 415px)
+	body
+		font-size 11px	
+				
+	/**********************
+        INDEX
+    **********************/
+	.contact
+		&-container
+			&-item
+				&:nth-child(2)
+					width 90%
+			&.diagonal-b
+				.wrapper
+					padding 24em 18em	
+
+	
+	/**********************
+        MODALES
+    **********************/	
